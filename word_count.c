@@ -17,7 +17,7 @@ int main(int argc, char* argv[]){
         else
             printf("Invalid input");
     }
-else {
+    else {
         if ((strings_compare(argv[1], "-l")) || (strings_compare(argv[1], "--lines")))
             printf("%d", counter(file, "lines"));
         else if ((strings_compare(argv[1], "-w")) || (strings_compare(argv[1], "--words")))
